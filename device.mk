@@ -48,11 +48,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml
 
 # Device fstab
-PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES_ENG += \
     fstab.qcom
 
 # Device init scripts
-PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES_ENG += \
     init.target.rc
 
 # Input
